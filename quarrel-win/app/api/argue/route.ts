@@ -57,8 +57,6 @@ export async function POST(req: NextRequest) {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
-        'HTTP-Referer': 'https://quarrel-win.vercel.app',
-        'X-Title': 'Quarrel Win',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
